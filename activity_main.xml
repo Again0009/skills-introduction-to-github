@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/topic"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/purple_500"
+        android:gravity="center"
+        android:text="首页"
+        android:textColor="@color/white" />
+
+    <ImageView
+        android:id="@+id/bg"
+        android:layout_width="420dp"
+        android:layout_height="700dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bg"
+         />
+
+    <TextView
+        android:id="@+id/tv_count"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:textColor="@color/black"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="150dp"
+        android:layout_marginBottom="350dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_peach"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="400dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="150dp"
+        android:padding="10dp"
+        android:backgroundTint="@color/purple_500"
+        android:text="去桃园" />
+    <ImageView
+        android:id="@+id/monkey"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="339dp"
+        app:srcCompat="@drawable/cat" />
+
+    <ImageView
+        android:id="@+id/peach"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginBottom="350dp"
+        app:srcCompat="@drawable/peach" />
+
+</RelativeLayout>
